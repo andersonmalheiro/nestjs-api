@@ -1,8 +1,6 @@
-# Node Memories API
+# NestJS API
 
-Simple REST API for storing your most important memories
-
-Project structure following SOLID principles.
+Simple REST API using NestJS
 
 ---
 
@@ -39,6 +37,6 @@ npx knex migrate:latest
 ### Technologies used in this project:
 
 - [MailTrap](https://mailtrap.io/) provider for sending emails when an user register in the app;
-- Database storage with [Postgres](https://www.postgresql.org/) and [Knex.js](http://knexjs.org/) query builder;
+- Database storage with [Postgres](https://www.postgresql.org/) and [TypeORM](https://typeorm.io/);
 - Typescript;
-- Schema validation with [Yup](https://github.com/jquense/yup);
+- Data validation with [Yup](https://github.com/jquense/yup) (in progress);
